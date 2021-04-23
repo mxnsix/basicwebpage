@@ -1,0 +1,194 @@
+body {
+	margin:0;
+}
+.first {
+	background-image:url(https://www.wallpapertip.com/wmimgs/167-1677602_sundown-landscape-minimalist-desktop-wallpaper-iphone-8-wallpaper.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	height: 100vh;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, arial, sans-serif;
+  overflow: hidden;
+  background-color: #003152 ;
+  position: fixed;
+  /*top: 60;*/
+  width: 100%;
+}
+li {
+  float: right;
+}
+.one {
+  background-color: #008081;
+ }
+.two{
+	background-color: #3FE0D0;
+}
+.three{
+	background-color: #7EF9FF;
+}
+li a:hover {
+  background-color: white;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.title {
+	text-align: center;
+	left: 90px;
+	font-family:'Quicksand', sans-serif;
+    top: 15%;
+    width: 87%;
+    position: absolute;
+    font-size: 79px;
+    margin: 0px;
+    background-color: #ffffff;
+    border: 13px solid black;
+    opacity: 0.6;
+}
+h1 {
+	padding: 0;
+    margin: 0;
+    font-weight: bold;
+    color: #000000;
+	border: 0;
+}
+
+.second {
+	display: flex;
+}
+.second .univ{
+	 height: 490px;  
+     width: 585px; 
+     margin: 61px;
+     border-width: 0px; 
+}
+h2{
+	text-align: center;
+	font-size: 200%;
+}
+.text {
+    font-size: 200%;
+	font-family:'Quicksand', sans-serif;
+    color:black;
+    background-image: linear-gradient(to bottom,white,#00a2a8);
+    text-align: center;
+    padding:10px;
+    height: 90vh;
+    margin: 0;
+ }
+ .third{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.third .run .four .detail{
+    color: black;
+	background-color:white;
+	width: 60px;
+    height: 60px;
+    border-radius: 15px 50px;
+    padding: 14px;
+    margin:0px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+}
+.hundred {
+    margin-left: 20px;
+    font-size: 26px;
+    color:black;
+    flex-direction: column;
+	margin:10px;
+	/*position: relative;
+	top:347778px;
+	right:385px;
+	text-align: center*/*/
+	
+}
+.third .run .four{
+    position:relative;
+    padding: 20px;
+    display: flex;
+}
+.contact{
+	 background-image:url(https://images.hdqwalls.com/wallpapers/mountains-digital-art-minimalist-l9.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	 padding: 50px 280px; 
+	 font-family:'Quicksand', sans-serif;
+   /* /*position: relative;
+    min-height: 54vh;   /*image height */
+   /* display: flex;*/
+   /* justify-content: center;
+    align-items: center;*/
+   /* flex-direction: row;*/*/
+}
+
+.third .run{
+    width:600%;
+    display: flex;
+    flex-direction: column;
+}
+.mess{
+    width:100%;
+    padding:35px;
+    background: white;
+    font-family:'Quicksand', sans-serif;
+}
+.mess h2{
+    font-size: 40px;
+    color:black;
+    font-weight: 500;
+}
+.mess .cup{
+  /*  position: relative;*/
+    width:100%;
+    margin-top: 30px;
+}
+.mess .cup input,
+.mess .cUp textarea{
+    border-bottom: 
+    2px solid rgb(20, 20, 20);
+    outline:none;
+    resize: none;
+}
+.mess .cup span {
+   /* left:170;*/
+    color:black;
+    font-weight:700;
+}
+.mess .cup input[type='submit']
+{
+    width: 100px;
+    background: teal;
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+}
+/*@media(max-width:91px) {
+    .contact{
+        padding: 50px;
+    }
+    .peep{
+        flex-direction: column;
+    }
+    .peep.run{
+        margin-bottom: 40px;
+    }
+    .peep.run,
+    .mess{
+        width: 100%;
+
+    }
+    
+}*/
